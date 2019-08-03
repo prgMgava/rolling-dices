@@ -36,10 +36,7 @@ Here's an example of the kind of output your program might produce:
 
 In addition to the numeric output described above, display the final counts as a bar graph (using a DIV for each bar, and varying the dimensions in proportion with the counts).
 
-### Grading ###
-*   Correctly rolling 1 die _(1 point)_
-*   Correctly rolling a pair of dice _(1 point)_
-*   Rolling 1000 times _(1 point)_
-*   Storing the frequency counts in an array _(1 point)_
-*   Displaying the counts in text _(1 point)_
-*   Displaying the counts as a bar graph _(1 point)_
+### Submission
+Push your code into your GitLab repository and deploy it via GitLab pages. In Canvas, please submit your
+Gitlab Pages url (ex: https://username.gitlab.io/dice/) and, in GitLab, add KA_Grading as a member on
+your project with "Reporter" permission.
