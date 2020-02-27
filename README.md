@@ -1,22 +1,22 @@
-# Assessment: Rolling Dice #
+# Avaliação: Rolando os Dados
 
-When rolling two six-sided dice, each die will show a number between 1 and 6. When the numbers on the two dice are added together, they will sum to a number between 2 and 12.
+Ao rolar dois dados de seis faces, cada dado irá mostrar um número entre 1 e 6. Quando estes números nos dois dados forem somados, o resultado será um número entre 2 e 12.
 
-Use JavaScript to simulate 1000 rolls of a pair of dice. _You will need to figure out how to generate random numbers in JavaScript, use your Google-Fu!_
+Use JavaScript para simular 1000 rolagens de um par de dados. *Você precisará descobrir como gerar números aleatórios no JavaScript, use seu Google-Fu!*
 
-For each possible roll (2 through 12), count its frequency. You should use an array to keep track of these counts.
+Para cada possível rolagem (de 2 a 12), conte a frequência. Você deve usar um array para registrar essas contagens.
 
-Initialize an array named _`count`_ by filling it with zeros. Then, whenever the roll of the two dice adds up to, say, a seven, add one to the value in the 7th element of the counts array.
+Inicialize um array chamado *`count`* preenchendo-o com zeros. Em seguida, sempre que uma rolagem de dados resultar em, digamos, sete, adicione um ao valor do 7º elemento do array de contagem.
 
-For example if the variable rollOfDice holds the current roll, you could increment the count with code like:
+Por exemplo, se a variável rollOfDice contiver a rolagem atual, você pode incrementar a contagem com um código assim:
 
 ```js
 count[rollOfDice] = count[rollOfDice] + 1;
 ```
 
-After the 1000 rolls are finished, show the final counts in an HTML page.
+Depois que as 1000 rolagens terminarem, mostre o resultado delas em uma página HTML.
 
-Here's an example of the kind of output your program might produce:
+Aqui está um exemplo do tipo de resultado que seu programa pode produzir:
 
 ```
 2: 32  
@@ -32,11 +32,10 @@ Here's an example of the kind of output your program might produce:
 12: 23
 ```
 
-### Output formatting ###
+### Formato de saída
 
-In addition to the numeric output described above, display the final counts as a bar graph (using a DIV for each bar, and varying the dimensions in proportion with the counts).
+Além do resultado numérico descrito acima, mostre os resultados finais em forma de uma barra gráfica (usando um DIV para cada barra, e variando as dimensões proporcionalmente aos resultados).
 
-### Submission
-Push your code into your GitLab repository and deploy it via GitLab pages. In Canvas, please submit your
-Gitlab Pages url (ex: https://username.gitlab.io/dice/) and, in GitLab, add KA_Grading as a member on
-your project with "Reporter" permission.
+### Envio
+
+Faça o push do código para o seu repositório GitLab e implemente-o via GitLab pages. No Canvas, por favor, envie a url de seu Gitlab Pages (ex: https://nomedeusuário.gitlab.io/dice/) e, no GitLab, adicione o grupo ka-br-correcoes como membro do seu projeto com a permissão "Reporter".
