@@ -1,4 +1,7 @@
-# Avaliação: Rolando os Dados
+# Entrega: Rolando os Dados
+
+Para começar, acesse [este link](https://gitlab.com/kenzie-academy-brasil/se/fe/getting-started-with-javascript/s_rolling-dice), faça o fork e clone o repo.
+
 
 Ao rolar dois dados de seis faces, cada dado irá mostrar um número entre 1 e 6. Quando estes números nos dois dados forem somados, o resultado será um número entre 2 e 12.
 
@@ -32,10 +35,10 @@ Aqui está um exemplo do tipo de resultado que seu programa pode produzir:
 12: 23
 ```
 
-### Formato de saída
+## Formato de saída
 
 Além do resultado numérico descrito acima, mostre os resultados finais em forma de uma barra gráfica (usando um DIV para cada barra, e variando as dimensões proporcionalmente aos resultados).
 
-### Envio
+## Envio
 
-Faça o push do código para o seu repositório GitLab e implemente-o via GitLab pages. No Canvas, por favor, envie a url de seu Gitlab Pages (ex: https://nomedeusuário.gitlab.io/dice/) e, no GitLab, adicione o grupo ka-br-correcoes como membro do seu projeto com a permissão "Reporter".
+Faça o push do código para o seu repositório GitLab e implemente-o via GitLab pages. No Canvas, por favor, envie a url de seu Gitlab Pages (ex: https://nomedeusuario.gitlab.io/s_rolling-dice/) e, no GitLab, adicione o grupo `ka-br-<sua-turma>-correcoes` como membro do seu projeto com a permissão "Reporter".
