@@ -3,11 +3,70 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Rolando dados</title>
 </head>
 <body>
-    <h1>Rolando dados</h1>
+    <header>
+        <h1>ROLL DICES</h1>
+        <div class="dices">
+            <i class="fas fa-dice-one"></i>
+            <i class="fas fa-dice-two"></i>
+            <i class="fas fa-dice-three"></i>
+            <i class="fas fa-dice-four"></i>
+            <i class="fas fa-dice-five"></i>
+            <i class="fas fa-dice-six"></i>
+        </div>
+    </header>
+    <main>
+        <section class="container-cube">
+            <div id="cube">
+                <div class="front">
+                    <span class="dot dot1"></span>
+                </div>
+                <div class="back">
+                    <span class="dot dot1"></span>
+                    <span class="dot dot2"></span>
+                </div>
+                <div class="right">
+                    <span class="dot dot1"></span>
+                    <span class="dot dot2"></span>
+                    <span class="dot dot3"></span>
+                </div>
+                <div class="left">
+                    <span class="dot dot1"></span>
+                    <span class="dot dot2"></span>
+                    <span class="dot dot3"></span>
+                    <span class="dot dot4"></span>
+                </div>
+                <div class="top">
+                    <span class="dot dot1"></span>
+                    <span class="dot dot2"></span>
+                    <span class="dot dot3"></span>
+                    <span class="dot dot4"></span>
+                    <span class="dot dot5"></span>
+                </div>
+                <div class="bottom">
+                    <span class="dot dot1"></span>
+                    <span class="dot dot2"></span>
+                    <span class="dot dot3"></span>
+                    <span class="dot dot4"></span>
+                    <span class="dot dot5"></span>
+                    <span class="dot dot6"></span>
+                </div>
+            </div>
+        </section>
+        <section class="content">
+            <div class="container" id="container">
+            </div>
+        </section>
+        <section class="content-explain">
+            <aside id="content-explain__item">
 
+            </aside>
+        </section>
+    </main>
     <script src="dice-roller.js"></script>
+    <script src="https://kit.fontawesome.com/da9408ba8b.js" crossorigin="anonymous"></script>
 </body>
 </html>
