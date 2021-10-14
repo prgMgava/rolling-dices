@@ -1,55 +1,18 @@
-# Entrega: Rolando os Dados
+# Objetos 3D
 
-Para começar, acesse [este link](https://gitlab.com/kenzie-academy-brasil/se/fe/getting-started-with-javascript/s_rolling-dice), faça o fork e clone o repo.
+Neste pequeno projeto desenvolvido no Q1 (primeiro módulo do curso) na Kenzie Academy Brasil, a proposta era desenvolver um contagem das rolagens de dados.
 
-**O objetivo desta atividade é simular a rolagem de dois dados várias vezes, anotar a frequencia de cada resultado e depois fazer o display dessas frequencias obtidas.**
+## Skills
 
-Ao rolar dois dados de seis faces, cada dado irá mostrar um número entre 1 e 6. Quando estes números nos dois dados forem somados, o resultado será um número entre 2 e 12. **Multiplicar o resultado por 2 não é o mesmo que rolar dois dados**
+Foi usado conhecimentos de **manipulação do DOM**, **lógica de programção com JS**, e ferramentas do **CSS** para estilizar objetos 3D.
 
-Use JavaScript para simular 1000 lançamentos de um par de dados. *Você precisará descobrir como gerar números aleatórios no JavaScript, use suas habilidades de busca no Google!*
+## Codando
 
-Para cada possível lançamento, conte a frequência. Você deve usar um array para registrar essas contagens.
+Foi bem divertido realizar esta entrega. O curso não exigia estilização em 3D, mas tive este *insight* na elaboração do código já que era referente a dados. Encontrei um link que tinha um código ja pronto com um dado em 3D e lógica para giros em 360º.
 
-Inicialize um array chamado *`count`* preenchendo-o com zeros. Em seguida, sempre que uma rolagem de dados resultar em, digamos, sete, adicione um ao valor do 7º elemento do array de contagem.
+Mas eu queria entender como aquele código funcionava exatamente. Foi então que resolvi editar as dimenções do dado, que estava muito grande e não ficou intteressante na minha aplicaçã... Daí começou todo o aprendizado, pois não era tão simples editar as dimenções (agora isso é óbvio para mim), e tttive que entender a força o que estava acontecendo.
 
-Por exemplo, se a variável rollOfDice contiver a rolagem atual, você pode incrementar a contagem com um código assim:
+No final eu gostei bastante e fiquei muito instigado em fazer novas formas 3D para aprender ainda mais (ainda não ttive tempo,  mas prometo...).
 
-```js
-count[rollOfDice] = count[rollOfDice] + 1;
-```
+[Rolling Dices](https://prgmgava.github.io/objects-3d/)
 
-Depois que as 1000 rolagens terminarem, mostre o resultado delas em uma página HTML.
-
-Aqui está um exemplo do tipo de resultado que seu programa pode produzir:
-
-```
-2: 32  
-3: 50  
-4: 76  
-5: 120  
-6: 151  
-7: 161  
-8: 125  
-9: 121  
-10: 89  
-11: 52  
-12: 23
-```
-
-## Formato de saída
-Além do resultado numérico descrito acima, mostre os resultados finais em forma de uma barra gráfica (usando um DIV para cada barra, e variando as dimensões proporcionalmente aos resultados).
-
-### Dica
-Como estamos falando de tamanhos específicos, usar classes de CSS não seria o mais apropriado, mas sim configurar o tamanho em pixels da altura ou largura de cada barra representando cada valor.
-
-Para isso podemos usar a propriedade style para configurar a altura ou largura individual de cada barra. E podemos fazer isso dinamicamente usando o DOM no JavaScript da seguinte forma:
-
-```javascript
-minhaBarra.style.width = `${larguraDaBarra}px`;
-```
-
-onde minhaBarra é a variável contendo o DOM element da div e larguraDaBarra é a variável contendo o valor a ser aplicado.
-
-## Envio
-
-Faça o push do código para o seu repositório GitLab e implemente-o via GitLab pages. No Canvas, por favor, envie a url de seu Gitlab Pages (ex: https://nomedeusuario.gitlab.io/s_rolling-dice/) e, no GitLab, adicione o grupo `ka-br-<sua-turma>-correcoes` como membro do seu projeto com a permissão "Reporter".
