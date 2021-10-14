@@ -14,5 +14,5 @@ Mas eu queria entender como aquele código funcionava exatamente. Foi então que
 
 No final eu gostei bastante e fiquei muito instigado em fazer novas formas 3D para aprender ainda mais (ainda não ttive tempo,  mas prometo...).
 
-[Rolling Dices](https://prgmgava.github.io/objects-3d/)
+[Rolling Dices](https://prgmgava.github.io/rolling-dices/)
 
